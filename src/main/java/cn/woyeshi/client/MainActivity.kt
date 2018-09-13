@@ -1,12 +1,19 @@
 package cn.woyeshi.client
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import cn.woyeshi.base.activities.BaseActivity
 
-class MainActivity : AppCompatActivity() {
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class MainActivity : BaseActivity() {
+    override fun getContentLayoutID(): Int {
+        return R.layout.activity_main
     }
+
+    override fun isHaveTitleBar(): Boolean {
+        return false
+    }
+
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+
+    }
+
 }

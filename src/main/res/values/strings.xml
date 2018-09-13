@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">go购够</string>
+    <string name="string_main_tab">首页</string>
+    <string name="string_category_tab">分类</string>
+    <string name="string_cart_tab">购物车</string>
+    <string name="string_message_tab">消息</string>
+    <string name="string_my_tab">我的</string>
 </resources>
