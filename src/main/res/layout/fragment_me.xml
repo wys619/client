@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <cn.woyeshi.client.view.CircleBgView
+        android:layout_width="720dp"
+        android:layout_height="720dp"
+        android:layout_marginLeft="-280dp"
+        android:layout_marginStart="-280dp"
+        android:layout_marginTop="-280dp"
+        app:centerX="90dp"
+        app:centerY="90dp"
+        app:circleColor="#30ffffff"
+        app:circleWidth="0.3dp"
+        app:endColor="#ff3263"
+        app:interval="6dp"
+        app:startColor="#ff0203" />
+
+
+</RelativeLayout>

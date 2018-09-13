@@ -2,7 +2,7 @@ package cn.woyeshi.client.utils
 
 import android.app.Activity
 import android.content.Intent
-import cn.woyeshi.client.MainActivity
+import cn.woyeshi.client.activity.MainActivity
 
 object Navigation {
 

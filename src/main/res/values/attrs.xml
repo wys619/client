@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleBgView">
+        <attr name="startColor" format="color" />
+        <attr name="endColor" format="color" />
+        <attr name="circleColor" format="color" />
+        <attr name="interval" format="dimension" />
+        <attr name="circleWidth" format="dimension"/>
+        <attr name="centerX" format="dimension"/>
+        <attr name="centerY" format="dimension"/>
+    </declare-styleable>
+
+</resources>
